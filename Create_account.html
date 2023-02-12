@@ -1,0 +1,65 @@
+<!DOCTYEP html>
+<html>
+    <head>
+        <title>Create account</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="CssProject2.css">
+        <link rel="icon" href="market-icons-15740.png">
+    </head>
+    <body>
+        <form class="Create_account">
+            <div class="top_Create_account">
+                <p>Create account</p>
+                <input type="text" placeholder="Name">
+                <input type="text" id="number1" placeholder="Number Phone" onchange="phone_number()">
+                <input type="text" placeholder="Email" id="email" onchange="Email_exp()">
+                <input type="password" id="pas_1" placeholder="password" onchange="password_exp()">
+                <input type="password" id="pas_2" placeholder="Re-enter password" onchange="Verify_password()">
+                <div class="date">
+                    <label>Select Date</label>
+                    <input type="date">
+                </div>
+            </div>
+            <div>
+                <label>Male</label>
+                <input type="radio" name="type">
+                <label>Female</label>
+                <input type="radio" name="type">
+            </div>
+            <button>Submit</button>
+            <p id="massage_error"></p>
+            <p id="massage_error_2"></p>
+            <div class="Create_end">
+                <p>have you account ?</p>
+                <a href="Sign_in.html">Sign in</a>
+            </div>
+        </form>
+<!---------------------------------------------->
+        <script src="all.min.js"></script>
+        <script src="JQueryConnect.js"></script>
+        <script src="JQueryProject2.js"></script>
+        <script src="JsProject2.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
